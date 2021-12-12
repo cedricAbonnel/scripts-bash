@@ -1,0 +1,15 @@
+#!/bin/bash
+
+path_files=/home/cedric24c/Musique/non_stop_music
+files=($path_files/*)
+volume=0.06
+
+echo Process number $$
+echo Path files : $path_files
+echo Number of files in the path : ${#files[@]}
+
+while [ 1 ];do
+    file=${files["$[RANDOM % ${#files[@]}]"]}
+    echo Now playing $file
+    play -v $volume "$file" &> /dev/null
+done
