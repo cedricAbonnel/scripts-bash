@@ -5,7 +5,7 @@ Some bash scripts
 Play audio file with play program, all the musics present in the desinged folder. In the script, indicate the music folder and the desired volume.
 
 
-# Licence
+# License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
